@@ -2,7 +2,16 @@
 
 Accesses [the list of all courses](https://www.datacamp.com/courses/all) on
 DataCamp and uploads each course with its link and description to a trello
-board. Requires a xml file structured like so:
+board.
+
+## Installation and configuration
+
+To get dependencies:
+```sh
+pipenv install
+```
+
+Requires a xml file structured like so:
 
 ```xml
 <info>
@@ -12,3 +21,4 @@ board. Requires a xml file structured like so:
 ```
 
 These two values are obtained from [here](https://trello.com/app-key)
+
