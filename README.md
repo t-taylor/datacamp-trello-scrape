@@ -15,9 +15,9 @@ Requires a xml file structured like so:
 
 ```xml
 <info>
-    <key>(key here)<\key>
-    <secret>(secret here)<\secret>
-<\info>
+    <key>(key here)</key>
+    <secret>(secret here)</secret>
+</info>
 ```
 
 These two values are obtained from [here](https://trello.com/app-key)
