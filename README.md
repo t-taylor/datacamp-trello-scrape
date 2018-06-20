@@ -22,3 +22,9 @@ Requires a xml file structured like so:
 
 These two values are obtained from [here](https://trello.com/app-key)
 
+## Running
+
+```sh
+pipenv shell
+python scrape.py
+```
